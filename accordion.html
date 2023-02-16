@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Modified Accrodion - MhS Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/structure.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  </head>
+
+  <body>
+    <header style="height: 50px;"></header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-7">
+          <div class="menu-search-area">
+            <form action="#" class="menu_search_form" method="get" role="search">
+              <div class="menu-search">
+                <div class="form-group">
+                  <input type="search" class="form-control menu-search-field" id="menu_search" title="Search your dishes..." name="s" value="" placeholder="Search your dishes...">
+                </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Filter By:</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check form-check-inline">
+                        <label class="form-check-label checkbox-label" for="inlineCheckbox1"><input class="form-check-input checkbox" type="checkbox" id="inlineCheckbox1" value="option1"><span class="checkbox-custom rectangular"></span></label>
+                        <div class="checkbox-title">Vegeterian</div>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <label class="form-check-label checkbox-label" for="inlineCheckbox2"> <input class="form-check-input checkbox" type="checkbox" id="inlineCheckbox2" value="option2"><span class="checkbox-custom rectangular"></span></label>
+                        <div class="checkbox-title">Tandoori</div>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <label class="form-check-label checkbox-label" for="inlineCheckbox3"><input class="form-check-input checkbox" type="checkbox" id="inlineCheckbox3" value="option3"><span class="checkbox-custom rectangular"></span></label>
+                        <div class="checkbox-title">House Special</div>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+            </form>
+          </div>
+          <div class="co-food-menu-area">
+            <ul class="accordiona">
+              <li class=""><a href="javascript:">Category A</a>
+                <ul>
+                  <li><a href="javascript:">Sub Category 1</a>
+                    <ul>
+                      <li>
+                        <div class="mhs-menu-item d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="item-image">
+                            <img class="img-fluid " src="img/item-4.jpg" alt="item title">
+                          </div>
+                          <div class="item-info mr-auto">
+                            <div class="menu-title">
+                              <h3>Onion Bhaji<span class="v"></span></h3>
+                            </div>
+                            <p>“Jhali” means very hot Bengali. this food preparation uses as a main ingredient of fresh chili. other spices include ginger, onion & garlic</p>
+                          </div>
+                          <div class="option-area">
+                            <select name="" id="itemSize">
+                              <option value="regularSize">Regular</option>
+                              <option value="side">Side</option>
+                              <option value="kids">Kids</option>
+                            </select>
+                            <p>Size</p>
+                          </div>
+                          <div class="option-area">
+                            <select name="" id="itemHot">
+                              <option value="regularTaste">Regular</option>
+                              <option value="mild">Mild</option>
+                              <option value="hot">Hot</option>
+                            </select>
+                            <p>Taste</p>
+                          </div>
+                          <div class="price_area">
+                            <span class="default-class"><span class="default-class">£</span>15.00</span>
+                          </div>
+                          <div class="mini-cart-btn-inverted">
+                            <a class="d-flex align-items-center justify-content-center" href=""><span class="cart-bag"></span><span class="cart-plus">+</span></a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="mhs-menu-item d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="item-image">
+                            <img class="img-fluid " src="img/item-4.jpg" alt="item title">
+                          </div>
+                          <div class="item-info mr-auto">
+                            <div class="menu-title">
+                              <h3>Onion Bhaji<span class="v"></span></h3>
+                            </div>
+                            <p>Fried Onion Balls</p>
+                          </div>
+                          <select name="" id="itemSize">
+                            <option value="default">Size</option>
+                            <option value="main">Main</option>
+                            <option value="side">Side</option>
+                            <option value="kids">Kids</option>
+                          </select>
+                          <select name="" id="itemHot">
+                            <option value="default">Taste</option>
+                            <option value="regular">Regular</option>
+                            <option value="mild">Mild</option>
+                            <option value="hot">Hot</option>
+                          </select>
+                          <div class="price_area">
+                            <span class="default-class"><span class="default-class">£</span>15.00</span>
+                          </div>
+                          <div class="mini-cart-btn-inverted">
+                            <a class="d-flex align-items-center justify-content-center" href=""><span class="cart-bag"></span><span class="cart-plus">+</span></a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="mhs-menu-item d-flex flex-wrap justify-content-between align-items-center">
+                          <div class="item-image">
+                            <img class="img-fluid " src="img/item-4.jpg" alt="item title">
+                          </div>
+                          <div class="item-info mr-auto">
+                            <div class="menu-title">
+                              <h3>Onion Bhaji<span class="v"></span></h3>
+                            </div>
+                            <p>Fried Onion Balls</p>
+                          </div>
+                          <select name="" id="itemSize">
+                            <option value="default">Size</option>
+                            <option value="main">Main</option>
+                            <option value="side">Side</option>
+                            <option value="kids">Kids</option>
+                          </select>
+                          <select name="" id="itemHot">
+                            <option value="default">Taste</option>
+                            <option value="regular">Regular</option>
+                            <option value="mild">Mild</option>
+                            <option value="hot">Hot</option>
+                          </select>
+                          <div class="price_area">
+                            <span class="default-class"><span class="default-class">£</span>15.00</span>
+                          </div>
+                          <div class="mini-cart-btn-inverted">
+                            <a class="d-flex align-items-center justify-content-center" href=""><span class="cart-bag"></span><span class="cart-plus">+</span></a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="javascript:">Sub Category 2</a>
+                    <ul>
+                      <li><a href="#">Product 1</a></li>
+                      <li><a href="#">Product 2</a></li>
+                      <li><a href="#">Product 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="javascript:">Category B</a>
+                <ul>
+                  <li>
+                    <div class="mhs-menu-item d-flex flex-wrap justify-content-between align-items-center">
+                      <div class="item-image">
+                        <img class="img-fluid " src="img/item-4.jpg" alt="item title">
+                      </div>
+                      <div class="item-info mr-auto">
+                        <div class="menu-title">
+                          <h3>Onion Bhaji<span class="v"></span></h3>
+                        </div>
+                        <p>Fried Onion Balls</p>
+                      </div>
+                      <select name="" id="itemSize">
+                        <option value="default">Size</option>
+                        <option value="main">Main</option>
+                        <option value="side">Side</option>
+                        <option value="kids">Kids</option>
+                      </select>
+                      <select name="" id="itemHot">
+                        <option value="default">Taste</option>
+                        <option value="regular">Regular</option>
+                        <option value="mild">Mild</option>
+                        <option value="hot">Hot</option>
+                      </select>
+                      <div class="price_area">
+                        <span class="default-class"><span class="default-class">£</span>15.00</span>
+                      </div>
+                      <div class="mini-cart-btn-inverted">
+                        <a class="d-flex align-items-center justify-content-center" href=""><span class="cart-bag"></span><span class="cart-plus">+</span></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="mhs-menu-item d-flex flex-wrap justify-content-between align-items-center">
+                      <div class="item-image">
+                        <img class="img-fluid " src="img/item-4.jpg" alt="item title">
+                      </div>
+                      <div class="item-info mr-auto">
+                        <div class="menu-title">
+                          <h3>Onion Bhaji<span class="v"></span></h3>
+                        </div>
+                        <p>Fried Onion Balls</p>
+                      </div>
+                      <select name="" id="itemSize">
+                        <option value="default">Size</option>
+                        <option value="main">Main</option>
+                        <option value="side">Side</option>
+                        <option value="kids">Kids</option>
+                      </select>
+                      <select name="" id="itemHot">
+                        <option value="default">Taste</option>
+                        <option value="regular">Regular</option>
+                        <option value="mild">Mild</option>
+                        <option value="hot">Hot</option>
+                      </select>
+                      <div class="price_area">
+                        <span class="default-class"><span class="default-class">£</span>15.00</span>
+                      </div>
+                      <div class="mini-cart-btn-inverted">
+                        <a class="d-flex align-items-center justify-content-center" href=""><span class="cart-bag"></span><span class="cart-plus">+</span></a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="checkout-area">
+            <div class="checkout-top text-center">
+              <p>If you or someone you'r ordering for has a food allergy or intolerance, <a href="#" data-toggle="modal" data-target="#allergy_info">Please click here</a></p>
+              <!-- Modal -->
+              <div class="modal fade" id="allergy_info" tabindex="-1" role="dialog" aria-labelledby="allergy_infoLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="allergy_infoLabel">Do you have a food allergy?</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>If you have a food allergy or intolerance (or someone you’re ordering for has), please call us on <a href="tel:+4401628 670 670">01628 670 670</a>.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cheackout-body">
+              <h3>Your Order</h3>
+              <div class="cart-detail-area">
+                <div class="cart-detail-main-group">
+                  <h5>Tandoori Chef</h5>
+                  <div class="cart-detail-sub-group">
+                    <h6 class="test">Side / Starter</h6>
+                    <div class="group_items">
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Shik Kebab</h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Oninon Bhajee</h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart-detail-sub-group">
+                    <h6 class="test">Main Course</h6>
+                    <div class="group_items">
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Chicken Saslik</h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Chicken Chat</h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Tandoori Mix Platter</h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart-detail-main-group">
+                  <h5>Head Chef</h5>
+                  <div class="cart-detail-sub-group">
+                    <h6 class="test">Side / Starter</h6>
+                    <div class="group_items">
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Saag Paneer</h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Bombay Aloo</h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart-detail-sub-group">
+                    <h6 class="test">Main Course</h6>
+                    <div class="group_items">
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Tandoori King Prawn Massala <span>(Hot)</span></h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Lamba Tikka Biriyani <span>(Extra Spicy)</span></h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Chicken Curry <span>(Oil Free)</span></h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-detail-main-group">
+                  <h5>Packaging</h5>
+
+                  <div class="cart-detail-sub-group">
+
+                    <div class="group_items">
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Tandoori King Prawn Massala <span>(Hot)</span></h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Lamba Tikka Biriyani <span>(Extra Spicy)</span></h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                      <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-auto remove_item text-center"><a href="#" class="">X</a></div>
+                        <div class="col-4 col-md-5">
+                          <h6 class="menu-title">Chicken Curry <span>(Oil Free)</span></h6>
+                        </div>
+                        <div class="col">
+                          <div class="qty_area d-flex align-items-center">
+                            <i class="fa fa-minus-square-o d-il"></i>
+                            <div class="quantity">
+                              <input type="text" id="" class="input-text qty" step="1" min="0" max="" name="" value="" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Item quantity">
+                            </div>
+                            <i class="fa fa-plus-square-o"></i>
+                          </div>
+                        </div>
+                        <div class="col text-center">
+                          <span class="priceamount">- <strong><span>$</span>36.79</strong></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="total_price_area">
+                  <div class="row justify-content-center">
+                    <div class="col-5 text-right">Sub Total:</div>
+                    <div class="col-3 text-right"><span class="priceamount"><strong><span>$</span>999.79</strong></span></div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-5 text-right test">Service Charge <span class="cotip" data-toggle="tooltip" data-html="true" title="<em>Service</em> <u>charges</u> <b>may apply.</b>"><i class="fa fa-question-circle"></i></span> :
+                    </div>
+                    <div class="col-3 text-right"><span class="priceamount"><strong><span>$</span>2.50</strong></span></div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-5 text-right">Delivery Charge <span class="cotip" data-toggle="tooltip" data-html="true" title="<em>Service</em> <u>charges</u> <b>may apply.</b>"><i class="fa fa-question-circle"></i></span> :</div>
+                    <div class="col-3 text-right"><span class="priceamount"><strong><span>$</span>4.30</strong></span></div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-5 text-right">Discount <span class="cotip" data-toggle="tooltip" data-html="true" title="<em>Service</em> <u>charges</u> <b>may apply.</b>"><i class="fa fa-question-circle"></i></span> :</div>
+                    <div class="col-3 text-right"><span class="priceamount"><strong><span>$</span>10.30</strong></span></div>
+                  </div>
+                  <div class="row justify-content-center total_price mb15">
+                    <div class="col-5 text-right">Total:</div>
+                    <div class="col-3 text-right"><span class="priceamount"><strong><span>$</span>127.30</strong></span></div>
+                  </div>
+                  <div class="row justify-content-between mb15">
+                    <div class="col-auto">
+                      <input type="text" name="coupon_code" class="form-control coupon-text" id="coupon_code" value="" placeholder="Enter Coupon!" title="Enter your coupon code here.">
+                    </div>
+                    <div class="col-auto">
+                      <button type="submit" class="btn btn-primary" name="apply_coupon" value="Apply coupon">Update Cart</button>
+                    </div>
+                  </div>
+                  <div class="row mb15">
+                    <div class="col d-flex justify-content-around radio-tile-group">
+                      <div class="input-container">
+                        <input type="radio" name="delivereyOption" class="radio-button" id="delivery_food" value="">
+                        <div class="radio-tile d-flex flex-column justify-content-center align-items-center">
+                          <div class="icon walk-icon">
+                            <span class="icon-automobile"></span>
+                          </div>
+                          <label for="walk" class="radio-tile-label">Delivery</label>
+                        </div>
+                      </div>
+                      <div class="input-container">
+                        <input type="radio" name="delivereyOption" class="radio-button" id="collect_food" value="">
+                        <div class="radio-tile d-flex flex-column justify-content-center align-items-center">
+                          <div class="icon car-icon">
+                            <span class="icon-directions_walk"></span>
+                          </div>
+                          <label for="drive" class="radio-tile-label">Collection</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <textarea class="form-control special-notes" id="checkoutSpecialNotes" rows="3" placeholder="example text area"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="checkout-bottom">
+              <button type="button" class="btn btn-primary btn-block">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="height: 100px;"></footer>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/umd/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.accordion.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+
+</html>
